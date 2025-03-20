@@ -21,16 +21,16 @@ public class HobbyMatchMain {
 	        double matchAC = match(sondre, simon);
 	        double matchBC = match(silje, simon);
 
-	        System.out.println("Match mellom Arne og Bente: " + matchAB);
-	        System.out.println("Match mellom Arne og Carl: " + matchAC);
-	        System.out.println("Match mellom Bente og Carl: " + matchBC);
+	        System.out.println("Match mellom silje og sondre: " + matchAB);
+	        System.out.println("Match mellom sondre og simon: " + matchAC);
+	        System.out.println("Match mellom silje og simon: " + matchBC);
 
 	        if (matchAB >= matchAC && matchAB >= matchBC) {
-	            System.out.println("Beste match: Arne og Bente");
+	            System.out.println("Beste match: silje og sondre");
 	        } else if (matchAC >= matchAB && matchAC >= matchBC) {
-	            System.out.println("Beste match: Arne og Carl");
+	            System.out.println("Beste match: sondre og simon");
 	        } else {
-	            System.out.println("Beste match: Bente og Carl");
+	            System.out.println("Beste match: silje og simon");
 	        }
 	}
 
